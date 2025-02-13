@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    height:100px;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    background-color: #45aaee;
+    align-self: center;
+    margin-top: 0;
+    font-size: 200%;
+    align-items: center;
+}
+
+.nav-img {
+    margin: 10px;
+    height: 80px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    padding-top: 2%;
+    z-index: 2;
+    text-align: center;
+}
+
+.onebyone {
+    width: 300px;
+    height: 300px;
+}
+
+.section {
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #45aaee;
+    color: black;
+    font-weight: 600;
+    font-size:larger;
+    padding: 1%;
+    margin: 1%;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: 200;
+    text-align: center;
+    padding: 10px;
+}
+
+.project-images {
+    width: 300px;
+    height: 200px;
+}
+
+.prog-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    text-align: left;
+}
